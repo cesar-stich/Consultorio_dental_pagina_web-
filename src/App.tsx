@@ -3,6 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
+import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
 import Services from './components/Services';
@@ -17,17 +18,20 @@ import FloatingWhatsApp from './components/FloatingWhatsApp';
 
 export default function App() {
   return (
-    <div className="w-full max-w-[480px] mx-auto relative bg-white min-h-screen shadow-2xl flex flex-col font-sans selection:bg-blue-100 selection:text-blue-900">
-      <Hero />
-      <About />
-      <Services />
-      <Gallery />
-      <FAQ />
-      <Location />
-      <Schedule />
-      <FinalCTA />
+    <div className="w-full relative bg-white min-h-screen flex flex-col font-sans selection:bg-blue-100 selection:text-blue-900">
+      <Navbar />
+      <main className="w-full flex-grow">
+        <Hero />
+        <About />
+        <Services />
+        <Gallery />
+        <FAQ />
+        <Location />
+        <Schedule />
+        <FinalCTA />
+      </main>
       <Footer />
-      
+
       <FloatingWhatsApp />
       <FloatingNav />
     </div>
