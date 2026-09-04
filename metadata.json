@@ -1,0 +1,6 @@
+{
+  "name": "Consultorio Dental Señor de Luren",
+  "description": "Consultorio Dental en Los Olivos, Lima. Odontología general, ortodoncia y estética dental. Dra. Rosa Esther Vásquez Cornejo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
